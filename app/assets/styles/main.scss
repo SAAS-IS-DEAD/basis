@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #f8f9fb;
+  color: var(--ui-color-text);
+  font-family: var(--ui-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ui-color-accent);
+  text-underline-offset: 4px;
+
+  &:focus-visible {
+    outline: 2px solid var(--ui-color-focus);
+    outline-offset: 4px;
+  }
+}
+
+.error {
+  padding: 12px 16px;
+  border: 1px solid var(--ui-color-danger);
+  border-radius: var(--ui-radius);
+  color: var(--ui-color-danger);
+}

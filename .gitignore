@@ -1,0 +1,15 @@
+.nuxt/
+.output/
+.nitro/
+.data/
+.cache/
+dist/
+node_modules/
+coverage/
+logs/
+*.log
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
